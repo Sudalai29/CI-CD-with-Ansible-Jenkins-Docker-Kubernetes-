@@ -4,7 +4,7 @@
     <p>Please fill in this form to create an account.</p>
     <hr>
      
-    <label for="How about fucking mia khalifa"><b>Enter your name</b></label>
+    <label for="Name"><b>Enter your name</b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
     <br>
     
@@ -12,7 +12,7 @@
     <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
     <br>
 
-    <label for="want to eat divya's pussy"><b>Enter your Email id</b></label>
+    <label for="Email><b>Enter your Email id</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
     <br>
 
