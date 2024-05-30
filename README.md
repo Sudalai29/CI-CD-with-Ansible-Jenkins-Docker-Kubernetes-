@@ -1,7 +1,7 @@
 Thanks to the mentor & creator of this project A.R.Shankar who I got inspired from and his course explaining the concepts very clearly  
 And also for providing the Java files so the learners can concentrate on the CI/CD solely.
 
-This is a concise README file format for GitHub outlining the process for creating a full-scale CI/CD application using the tools mentioned:
+This is a concise outlining of the process for creating a full-scale CI/CD application using the tools mentioned:
 
 ---
 
