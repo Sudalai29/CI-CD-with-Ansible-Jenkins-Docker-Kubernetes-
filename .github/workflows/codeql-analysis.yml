@@ -35,19 +35,11 @@ jobs:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
         queries: |
-          security-extended/sql-injection
-          security-extended/xss
-          security-extended/weak-cryptographic-practices
-          security-extended/exec-injection
-          code-quality/dead-code
-          code-quality/duplicated-code
-          code-quality/unnecessary-imports
-          code-quality/too-many-parameters
-          best-practices/hardcoded-strings
-          best-practices/logging-sensitive-information
-          best-practices/null-dereference
-          performance/inefficient-string-concatenation
-          performance/inefficient-object-creation
+          # Use built-in CodeQL query packs
+          security-extended
+          code-quality
+          best-practices
+          performance
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
