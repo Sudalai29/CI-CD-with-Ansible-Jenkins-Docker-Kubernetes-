@@ -23,7 +23,7 @@ jobs:
       matrix:
         include:
         - language: java-kotlin
-          build-mode: none # Analyzes only Java in this example
+          build-mode: none  # Analyzes Java only in this example
 
     steps:
     - name: Checkout repository
@@ -36,9 +36,9 @@ jobs:
         build-mode: ${{ matrix.build-mode }}
         queries: |
           security-extended/sql-injection
-          security-extended/exec-injection
           security-extended/xss
           security-extended/weak-cryptographic-practices
+          security-extended/exec-injection
           code-quality/dead-code
           code-quality/duplicated-code
           code-quality/unnecessary-imports
